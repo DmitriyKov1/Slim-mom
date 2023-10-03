@@ -1,12 +1,11 @@
 import React from "react";
 
 const Registration = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-    
-}
+  return (
+    <div>
+      <a href="/RegistrationPage">Registration</a>
+    </div>
+  );
+};
 
-export default Registration
+export default Registration;

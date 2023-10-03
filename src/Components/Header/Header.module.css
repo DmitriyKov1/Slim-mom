@@ -1,0 +1,27 @@
+
+.HeaderWrapper {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 300;
+}
+.NavWrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: start;
+    padding: 79px 129px 20px 16px;
+    
+}
+
+
+
+
+/* .NavWrapper ::after {
+        content: '';
+    border-bottom: 2px solid #D9D9D9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    } */

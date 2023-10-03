@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
+import styles from "./Login.module.css";
 
 const Login = () => {
-    return (
+  return (
     <div>
-
+      <a href="/LoginPage">Log In</a>
     </div>
-    )
-    
-}
-export default Login
+  );
+};
+export default Login;
