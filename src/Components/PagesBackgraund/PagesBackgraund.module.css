@@ -1,0 +1,34 @@
+.background {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    min-height: 100vh;
+    background-image: url("../../assets/pictures/VectorGray.svg");
+    background-position: bottom -7px right -220px, 880px -53px;
+    background-repeat: no-repeat;
+    background-size: 62%, 10%;
+
+}
+.strawberry {
+    display: block; 
+    position: absolute;
+    right: 70px;
+    top: 567px;
+
+}
+.banana {
+    display: block;
+    position: absolute;
+    right: -13%;
+    bottom: 400px;
+    pointer-events: none;
+}
+.leaves {
+    display: block;
+    position: absolute;
+    right: 285px;
+    bottom: 50px;
+    pointer-events: none;
+}
