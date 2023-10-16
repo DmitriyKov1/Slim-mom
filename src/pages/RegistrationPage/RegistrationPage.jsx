@@ -1,7 +1,12 @@
 import React from "react";
+import PagesBackgraund from "../../Components/PagesBackgraund/PagesBackgraund";
 
 const RegistrationPage = () => {
-  return <div>RegistrationPage</div>;
+  return (
+    <PagesBackgraund>
+      <div>RegistrationPage</div>
+    </PagesBackgraund>
+  );
 };
 
 export default RegistrationPage;

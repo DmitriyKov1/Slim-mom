@@ -6,29 +6,16 @@
 
     min-height: 100vh;
     background-image: url("../../assets/pictures/VectorGray.svg");
-    background-position: bottom -7px right -220px, 880px -53px;
+    background-position: right 0px;
     background-repeat: no-repeat;
-    background-size: 62%, 10%;
+   
 
 }
-.strawberry {
-    display: block; 
-    position: absolute;
-    right: 70px;
-    top: 567px;
 
-}
-.banana {
+.fruit {
     display: block;
     position: absolute;
-    right: -13%;
-    bottom: 400px;
-    pointer-events: none;
-}
-.leaves {
-    display: block;
-    position: absolute;
-    right: 285px;
-    bottom: 50px;
+    right: 0px;
+
     pointer-events: none;
 }
