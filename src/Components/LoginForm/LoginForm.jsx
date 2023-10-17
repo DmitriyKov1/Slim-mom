@@ -35,35 +35,54 @@ const LoginForm = () => {
           isSubmitting,
           /* and other goodies */
         }) => (
-          <form onSubmit={handleSubmit}>
-            <h2>LOG IN</h2>
-            <label>
-              Log In*
-              <input
-                type="email"
-                name="email"
-                onChange={handleChange}
-                onBlur={handleBlur}
-                value={values.email}
-              />
-            </label>
+          <form className={styles.form} onSubmit={handleSubmit}>
+            <h2 className={styles.title}>LOG IN</h2>
+            <div className={styles.input__form}>
+              <label className={styles.label}>
+                Log In*
+                <input
+                  className={styles.input}
+                  type="email"
+                  name="email"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.email}
+                />
+              </label>
 
-            {errors.email && touched.email && errors.email}
-            <label>
-              Password*
-              <input
-                type="password"
-                name="password"
-                onChange={handleChange}
-                onBlur={handleBlur}
-                value={values.password}
-              />
-            </label>
+              {errors.email && touched.email && errors.email}
+            </div>
+            <div className={styles.input__form}>
+              <label className={styles.label}>
+                Password*
+                <input
+                  className={styles.input}
+                  type="password"
+                  name="password"
+                  onChange={handleChange}
+                  onBlur={handleBlur}
+                  value={values.password}
+                />
+              </label>
 
-            {errors.password && touched.password && errors.password}
-            <button type="submit" disabled={isSubmitting}>
-              Log In
-            </button>
+              {errors.password && touched.password && errors.password}
+            </div>
+            <div className={styles.buttons}>
+              <button
+                className={styles.btn__login}
+                type="submit"
+                disabled={isSubmitting}
+              >
+                Log In
+              </button>
+              <button
+                className={styles.btn__registration}
+                type="submit"
+                disabled={isSubmitting}
+              >
+                Registralion
+              </button>
+            </div>
           </form>
         )}
       </Formik>

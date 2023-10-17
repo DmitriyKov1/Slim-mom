@@ -3,7 +3,11 @@ import PagesBackgraund from "../../Components/PagesBackgraund/PagesBackgraund";
 import LoginForm from "../../Components/LoginForm/LoginForm";
 
 const LoginPage = () => {
-  return <LoginForm />;
+  return (
+    <PagesBackgraund>
+      <LoginForm />
+    </PagesBackgraund>
+  );
 };
 
 export default LoginPage;

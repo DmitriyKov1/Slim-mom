@@ -2,5 +2,107 @@
 .loginform {
     max-height: 100vh;
     height: 100%;
-    margin-top: 500px;
+   
 }
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.95;
+    font-family: 'Gotham Pro', sans-serif;
+    color: #FC842D;
+    text-transform: uppercase;
+    margin: 0 0 70px 0;
+}
+.form {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 352px;
+    margin-left: 105px;
+    padding: 10px;
+    width: 400px;
+}
+.input__form {
+    position: relative;
+  width: 240px;
+  height: 45px;
+  margin-bottom: 40px;
+}
+.label {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #9b9faa;
+}
+.input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    background: transparent;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.41;
+    outline: transparent;
+}
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.btn__login {
+    margin-bottom: 20px;
+    width: 176px;
+    background-color: #fc842d;
+    color: #ffffff;
+    padding: 13px 0;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.41;
+    border: 2px solid transparent;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+    border-radius: 30px;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.btn__login :disabled {
+      background-color: #9b9faa;
+      box-shadow: 0px 4px 10px rgba(102, 102, 102, 0.5);
+    }
+.btn__login :hover:not([disabled]) {
+      background-color: #ffffff;
+      color: #fc842d;
+      border: 2px solid #fc842d;
+    }
+
+.btn__registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 176px;
+  background-color: #ffffff;
+  color: #fc842d;
+  border: 2px solid #fc842d;
+  padding: 13px 0;
+  display: block;
+  font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(252, 132, 45, 0.5);
+  border-radius: 30px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  
+}
+.btn__registration :hover {
+    background-color: #fc842d;
+    color: #ffffff;
+    border: 2px solid #fc842d;
+  }
